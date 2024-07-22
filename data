@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int i=sc.nextInt();
+        System.out.println("Integer is "+i);
+        double f=sc.nextDouble();
+        System.out.println("Float is "+f);
+        char c =sc.next().charAt(0);
+        System.out.println("Character is "+c);
+        String s1=sc.next();
+        sc.nextLine();
+        String s2=sc.nextLine();
+        System.out.println("Strings are "+s1+" and "+s2);
+
+    }
+}
